@@ -1,0 +1,16 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.astrron.ai'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId "com.astrron.ai"
+        minSdk 24
+        targetSdk 35
+        versionCode 1
+        versionName "1.0"
+    }
+}
